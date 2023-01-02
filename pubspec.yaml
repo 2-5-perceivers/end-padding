@@ -1,0 +1,19 @@
+name: final_padding
+description: A package that provides utils for creating final paddings
+version: 1.0.0
+homepage: https://github.com/2-5-perceivers/final-padding
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ">=3.2.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
