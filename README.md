@@ -1,20 +1,54 @@
-# Final Padding Utils
+# End Padding Utils
 
-A package that provides utils for creating final paddings
+<div align="center">
 
-## Features
+  [![GitHub stars][github_stars_badge]][github_stars_link]
+  [![Package: end-padding][package_badge]][package_link]
+  [![Language: Dart][language_badge]][language_link]
+  [![License: MIT][license_badge]][license_link]
 
-This package allows to add a final safe area type padding to your pages. This allows adding padding so list children are not obscured by fabs, system navigation buttons when in edgeToEdge mode or the keyboard, even when there is a M3 navigation bar.
+</div>
+
+[github_stars_badge]: https://img.shields.io/github/stars/2-5-perceivers/end-padding?style=flat&color=yellow
+[github_stars_link]: https://github.com/2-5-perceivers/end-padding/stargazers
+[package_badge]: https://img.shields.io/pub/v/end-padding?color=green
+[package_link]: https://pub.dev/packages/end-padding
+[language_badge]: https://img.shields.io/badge/language-Dart-blue
+[language_link]: https://dart.dev
+[license_badge]: https://img.shields.io/github/license/2-5-perceivers/end-padding
+[license_link]: https://opensource.org/licenses/MIT
+
+The simplest package you will need. Made for simply adding padding at the end of lists to make sure system navigation or floating action buttons don't cover the last widgets.
+
+## Installation
+
+To use this package, add master_detail_flow as a dependency using:
+```
+flutter pub add end_padding
+```
 
 ## Getting started
 
-Just add FinalPadding or SilverFinalPadding to the end of your pages.
+Just add EndPadding or SilverEndPadding to the end of your widget lists. Or use the extension on `List<Widget>`.
 
 ## Usage
 
 ```dart
-const SliverFinalPadding(
-    useFloating: true,
-    useKeyboard: true,
+const EndPadding(),
+```
+
+```dart
+const SliverEndPadding(),
+```
+
+```dart
+ListView(
+    children: someListOfWidgets.endPadding(),
 )
 ```
+
+For further details, visit the [documentation](https://pub.dev/documentation/end_padding/latest/).
+
+Example of a colored EndPadding with a floating action button:
+
+![Padding Image](https://github.com/2-5-perceivers/end-padding/blob/master/images/padding.jpg?raw=true)
