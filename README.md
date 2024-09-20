@@ -11,8 +11,8 @@
 
 [github_stars_badge]: https://img.shields.io/github/stars/2-5-perceivers/end-padding?style=flat&color=yellow
 [github_stars_link]: https://github.com/2-5-perceivers/end-padding/stargazers
-[package_badge]: https://img.shields.io/pub/v/end-padding?color=green
-[package_link]: https://pub.dev/packages/end-padding
+[package_badge]: https://img.shields.io/pub/v/end_padding?color=green
+[package_link]: https://pub.dev/packages/end_padding
 [language_badge]: https://img.shields.io/badge/language-Dart-blue
 [language_link]: https://dart.dev
 [license_badge]: https://img.shields.io/github/license/2-5-perceivers/end-padding
