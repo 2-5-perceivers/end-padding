@@ -1,6 +1,6 @@
 name: end_padding
 description: A package that provides utils for creating ending padding in lists.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/2-5-perceivers/end-padding
 funding:
   - https://github.com/sponsors/rares45

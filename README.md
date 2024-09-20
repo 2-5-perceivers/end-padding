@@ -3,7 +3,7 @@
 <div align="center">
 
   [![GitHub stars][github_stars_badge]][github_stars_link]
-  [![Package: end-padding][package_badge]][package_link]
+  [![Package: end_padding][package_badge]][package_link]
   [![Language: Dart][language_badge]][language_link]
   [![License: MIT][license_badge]][license_link]
 
@@ -22,7 +22,7 @@ The simplest package you will need. Made for simply adding padding at the end of
 
 ## Installation
 
-To use this package, add master_detail_flow as a dependency using:
+To use this package, add end_padding as a dependency using:
 ```
 flutter pub add end_padding
 ```
